@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background-color: rgb(23, 171, 109);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    background-color: rgb(208, 142, 57);
+    font-size: 55px;
+    width: 40%;
+}
+
+h1:hover {
+    color: burlywood;
+}
+
+img {
+    border: white 10px solid;
+    border-radius: 25px;
+}
+
+img:hover {
+    border-color: rgb(222, 57, 57);
+    transition: 1000ms;
+}
+
+#firstImage:hover {
+    border-color: rgb(119, 63, 119);
+    rotate: 360deg;
+}
